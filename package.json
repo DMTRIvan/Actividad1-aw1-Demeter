@@ -1,7 +1,6 @@
 {
   "name": "actividad1-aw1-demeter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "devDependencies": {
     "five-server": "^0.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMTRIvan/Actividad1-aw1-Demeter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DMTRIvan/Actividad1-aw1-Demeter/issues"
+  },
+  "homepage": "https://github.com/DMTRIvan/Actividad1-aw1-Demeter#readme",
+  "description": ""
 }
