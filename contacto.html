@@ -11,28 +11,41 @@
                 Cómo convertirte en un desarrollador web excepcional
             </h1>
             <nav>
-                <a href="index.html">Volver a la página principal</a>
-            </nav>
+                <a href="index.html">Inicio</a> <a href="about.html">Videos de referencias</a> 
+                <a href="media.html">Multimedia</a> <a href="contacto.html">Contacto</a>
+            </nav> 
         </header>
         <main>
             <h2>Contacto:</h2>
-            <form action="./contacto.html" method="post">
-                <label for="nombre">
-                    Nombre: 
-                    <input type="text" id="Freelancer" name="Freelancer">
-                </label>
-
-
-
-
-
+            <form action="http://localhost:3000/contacto.html" method="post">
+                <!-- campo de texto -->
+                <label for="nombre"> Nombre </label>
+                <input type="text" name="nombre" id="nombre" />
+                <!-- campo checkbox -->
+                <label for="freelancer"> Soy freelancer </label>
+                <input type="checkbox" name="freelancer" id="freelancer" />
+                 <!-- campo select -->
+                 <label for="lenguaje"> Lenguaje </label>
+                 <select name="lenguaje" id="lenguaje">
+                     <option value="Javascript">Javascript</option>
+                     <option value="python" selected>Python</option>
+                     <option value="C#">C#</option>
+                 </select>
+                 <!-- campo select -->
+                <label for="comentario"> Soy freelancer </label>
+                <textarea
+                    name="comentario"
+                    id="comentario"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+                 <!-- Submit / envío formulario -->
+                 <button type="submit">Enviar</button>
             </form>
 
-
-
-
         </main>
-
-
+        <footer>
+            <p>Autor: Demeter Ivan</p>
+        </footer>
     </body>
 </html>
